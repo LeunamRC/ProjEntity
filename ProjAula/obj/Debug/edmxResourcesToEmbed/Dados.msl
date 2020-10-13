@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DadosModelStoreContainer" CdmEntityContainer="DadosEntities">
+    <EntitySetMapping Name="tb_aula">
+      <EntityTypeMapping TypeName="DadosModel.tb_aula">
+        <MappingFragment StoreEntitySet="tb_aula">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="nomedisciplina" ColumnName="nomedisciplina" />
+          <ScalarProperty Name="qtd_alunos" ColumnName="qtd_alunos" />
+          <ScalarProperty Name="nomeprofessor" ColumnName="nomeprofessor" />
+          <ScalarProperty Name="nomefaculdade" ColumnName="nomefaculdade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
